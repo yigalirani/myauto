@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="myauto.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" href="myauto.css">
+<script id="show_user_tempalate" type="text/template">
+    <h1>#username</h1>  
+    (#title #first_name #last_name)<br>
+    <b>From:</b>  #city,#country<br>
+    <b>Id:</b> #id<br>
+    <b>Email:</b> #email<br> 
+    <b>Favorite color:</b> <div style={background=#fav_color}>&nbsp;<div> <br>
+    <a href=#blog>blog</a><br>
+</script>
+
+</head>
+<body>
+<div>
+    <div id="myauto_demo" class="myauto_container">
+        <input  autofocus type="text" name="people" placeholder="start typing person username">
+        <div></div>
+    </div>
+</div>
+
+
+<div id='logger'></div>
+<div id='usercard'></div>
+
+</body>
+</html>
